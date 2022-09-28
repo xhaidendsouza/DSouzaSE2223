@@ -1,21 +1,57 @@
-/* ------------- Class CSS ------------- */
+/* ----------------- Class CSS ----------------- */
 
-.navbar-bg-color {
+
+
+.navbar-bg-color, .footer {
     background-color: #00832c;
     transition: background-color 1.5s ease-in-out;
 }
 
-.navbar-bg-color:hover{
+.navbar-bg-color:hover, .footer:hover {
     background-color: #005a83;
     transition: background-color 1.5s ease-in-out;
 }   
+
+.showcase {
+    background-color: rgb(98, 147, 108);
+}
+
+.overview {
+    background-color: rgb(191, 233, 194);
+}
+
+.icon-white{
+    color:#FFF;
+}
+
+.about-author{
+    color: white
+}
+
+.author{
+    background-color: black
+}
+/* ----------------- ID CSS ----------------- */
 
 a#nbMenuItem {
     font-size:25px;
     padding: 0px 20px;
 }
 
-/* -----------------Underline Animation CSS -----------------*/
+#ovPadLeft{
+    padding-left:20px;
+}
+
+#ovPadRight{
+    padding-right:20px;
+}
+
+div#about{
+    width: 400px;
+    margin: auto;
+}
+
+/* ----------------- Underline Animation CSS ----------------- */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
