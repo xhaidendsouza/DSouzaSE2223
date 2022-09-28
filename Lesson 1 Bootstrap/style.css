@@ -1,7 +1,5 @@
 /* ----------------- Class CSS ----------------- */
 
-
-
 .navbar-bg-color, .footer {
     background-color: #00832c;
     transition: background-color 1.5s ease-in-out;
@@ -31,6 +29,7 @@
 .author{
     background-color: black
 }
+
 /* ----------------- ID CSS ----------------- */
 
 a#nbMenuItem {
