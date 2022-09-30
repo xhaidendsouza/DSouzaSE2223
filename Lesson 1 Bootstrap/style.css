@@ -70,6 +70,17 @@ div#about{
     margin: auto;
 }
 
+#logo{
+    transition: width 500ms ease-in-out, rotate 500ms ease-in-out;
+}
+
+#logo:hover{
+    width: 27.5% !important;
+    rotate: 10deg;
+    transition: width 500ms ease-in-out, rotate 500ms ease-in-out;
+    
+}
+
 /* ----------------- Underline Animation CSS ----------------- */
 .hover-underline-animation {
     display: inline-block;
