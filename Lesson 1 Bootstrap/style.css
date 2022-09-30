@@ -22,12 +22,32 @@
     color:#FFF;
 }
 
-.about-author{
-    color: #FFF
+.author-title{
+    color: #FFF;
 }
 
 .author{
     background-color: rgb(98, 147, 108);
+}
+
+.procedure{
+    background-color: rgb(191, 233, 194);
+}
+
+.procedure-title{
+    color:rgb(0, 0, 0)
+}
+
+.row-background{
+    background-color: rgb(98, 147, 108);
+    border: 3px black solid;
+    border-radius: 10px;
+    transition: filter 500ms ease-out 100ms;
+}
+
+.row-background:hover{
+    filter: drop-shadow(10px 10px 10px #2b2620);
+    transition: filter 500ms ease-out 100ms;
 }
 
 /* ----------------- ID CSS ----------------- */
