@@ -38,6 +38,10 @@
     color:rgb(0, 0, 0)
 }
 
+.results-title{
+    color:#FFF
+}
+
 .row-background{
     background-color: rgb(98, 147, 108);
     border: 3px black solid;
@@ -46,9 +50,20 @@
 }
 
 .row-background:hover{
-    filter: drop-shadow(10px 10px 10px #2b2620);
+    filter: drop-shadow(5px 5px 5px #2b2620);
     transition: filter 500ms ease-out 100ms;
 }
+
+.coming-soon{
+    font-size: 300px;
+    color:#FFF
+}
+
+.results{
+    background-color: rgb(98, 147, 108);
+    padding:1px;
+}
+
 
 /* ----------------- ID CSS ----------------- */
 
