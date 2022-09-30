@@ -56,12 +56,18 @@
 
 .coming-soon{
     font-size: 300px;
-    color:#FFF
+    color:#FFF;
+    transition: color 2s ease-out;
 }
 
 .results{
     background-color: rgb(98, 147, 108);
     padding:1px;
+}
+
+.coming-soon:hover{
+    color: rgb(191, 233, 194);
+    transition: color 2s ease-out;
 }
 
 
