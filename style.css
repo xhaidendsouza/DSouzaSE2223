@@ -61,7 +61,8 @@
 }
 
 .results{
-    background-color: rgb(98, 147, 108);
+    background-color: rgb(8, 53, 16);
+    color:white;
     padding:1px;
 }
 
@@ -72,6 +73,10 @@
 
 
 /* ----------------- ID CSS ----------------- */
+
+#myChart{
+    color:white;
+}
 
 a#nbMenuItem {
     font-size:25px;
