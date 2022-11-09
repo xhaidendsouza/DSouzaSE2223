@@ -38,10 +38,6 @@
     color:rgb(0, 0, 0)
 }
 
-.results-title{
-    color:#FFF
-}
-
 .row-background{
     background-color: rgb(98, 147, 108);
     border: 3px black solid;
@@ -54,30 +50,15 @@
     transition: filter 500ms ease-out 100ms;
 }
 
-.coming-soon{
-    font-size: 300px;
-    color:#FFF;
-    transition: color 2s ease-out;
-}
-
 .results{
-    background-color: rgb(8, 53, 16);
-    color:white;
+    background-color: rgb(197, 239, 221);
     padding:1px;
-}
-
-.coming-soon:hover{
-    color: rgb(191, 233, 194);
-    transition: color 2s ease-out;
 }
 
 
 /* ----------------- ID CSS ----------------- */
 
-#myChart{
-    color:white;
-}
-
+ 
 a#nbMenuItem {
     font-size:25px;
     padding: 0px 20px;

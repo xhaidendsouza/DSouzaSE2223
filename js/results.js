@@ -52,8 +52,8 @@ async function createChart(){
             {
                 label: 'Positive Control Heights',
                 data: data.posControl,
-                backgroundColor: 'rgba(99, 255, 132, 0.2)',
-                borderColor: 'rgba(99, 255, 132, 1)',
+                backgroundColor: 'rgba(99, 155, 132, 0.2)',
+                borderColor: 'rgba(99, 155, 132, 1)',
                 borderWidth: 1
             },
             {
