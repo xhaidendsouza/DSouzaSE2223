@@ -58,7 +58,9 @@
 
 /* ----------------- ID CSS ----------------- */
 
- 
+#myChart{
+    
+} 
 a#nbMenuItem {
     font-size:25px;
     padding: 0px 20px;
