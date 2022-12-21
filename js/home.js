@@ -61,12 +61,12 @@ function signOutUser(){
   localStorage.removeItem('keepLoggedIn');
 
   signOutLink(auth).then(() => {
-    //Sign out successful
+    alert("The user has successfully logged out.")
   }).catch((error)=>{
-    //Error occurred
+    alert('There was an error. Error: ' + error);
   })
 
-  window.location = 'home.html';
+  window.location = 'index.html';
 }
 
 
@@ -100,18 +100,7 @@ window.onload = function(){
 
   // ------------------------- Set Welcome Message -------------------------
   getUserName();
-  if(currentUser == null){
-    userLink.innerText = 'Create New Account';
-    userLink.classList.replace('nav-link', 'btn');
-    userLink.classList.add('btn-primary');
-    userLink.href = 'register.html';
-
-    signOutLink.innerText = 'Sign In';
-    signOutLink.classList.replace('nav-link', 'btn');
-    signOutLink.classList.add('btn-success');
-    signOutLink.href = 'signIn.html';
-
-  } else {
+  if(currentUser != null){
     userLink.innerText = currentUser.firstName;
     welcome.innerText = 'Welcome ' + currentUser.firstName;
     userLink.classList.replace('btn', 'nav-link');
@@ -119,8 +108,6 @@ window.onload = function(){
     userLink.href = '#';
 
     signOutLink.innerText = 'Sign Out';
-    signOutLink.classList.replace('btn', 'bnav-link');
-    signOutLink.classList.remove('btn-success');
     document.getElementById('signOut').onclick = function(){
       signOutUser();
     }

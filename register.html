@@ -25,26 +25,36 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light headerBG">
-        <!-- lg = large breakpoint, headerBG = custom css BG color -->
-        <div class="container"> <!-- Container will contain content in certain space in middle of page -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-color">
+        <div class="container">
             <a href="index.html" class="navbar-brand">
-                <img src="/img/Built_with_Firebase_Logo_LightTP.png" alt="Built wtih Firebase" class="d-inline-block align-text-top">
+                <img id="logo" class = "d-inline-block align-text-top w-25" src="img/logo.png" alt = "Leaf Logo">
             </a>
-
-            <!-- Hamburger Menu Button-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible navbar menu with custom hover underline CSS animation -->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <!-- Links to hamburger menu button -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nbMenuItem">
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <!--Hamburger Menu Button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Collapsible navbar menu with custom hover underline CSS-->
+        <div class="collapse navbar-collapse" id="navmenu">
+            <!--Links to hamburger menu button-->
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="author.html" class="nav-link hover-underline-animation" id="nbMenuItem">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a href="procedure.html" class="nav-link hover-underline-animation" id="nbMenuItem">Procedure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="results.html" class="nav-link hover-underline-animation" id="nbMenuItem">Results</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html" class="btn btn-primary">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signIn.html" class="btn btn-primary">Sign In</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -53,15 +63,17 @@
     </div>
 
     <!--Sign Up -->
-    <div class="signUpForm mb-5">     
-        <form>
-            <input type="text" placeholder="First Name" id="firstName" class="form-control mb-3">
-            <input type="text" placeholder="Last Name" id="lastName" class="form-control mb-3">
-            <input type="email" placeholder="Email" id="userEmail" class="form-control mb-3">
-            <input type="password" placeholder="password" id="userPass" class="form-control mb-3">
-            <button type = "button" id="submitData" name="submitData" class="btn btn-outline-primary mb-3 w-100">Register</button>
-            <a href="signIn.html" class="badge bg-secondary py-1 w-100">Already have an account?</a>
-        </form>
+    <div class="row justify-content-center">
+        <div class="signUpForm mb-5 col-md-6">     
+            <form>
+                <input type="text" placeholder="First Name" id="firstName" class="form-control mb-3">
+                <input type="text" placeholder="Last Name" id="lastName" class="form-control mb-3">
+                <input type="email" placeholder="Email" id="userEmail" class="form-control mb-3">
+                <input type="password" placeholder="Password" id="userPass" class="form-control mb-3">
+                <button type = "button" id="submitData" name="submitData" class="btn btn-outline-primary mb-3 w-100">Register</button>
+                <a href="signIn.html" class="badge bg-secondary py-1 w-100">Already have an account?</a>
+            </form>
+        </div>
     </div>
     
 </body>
