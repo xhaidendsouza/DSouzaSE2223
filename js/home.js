@@ -65,8 +65,6 @@ function signOutUser(){
   }).catch((error)=>{
     alert('There was an error. Error: ' + error);
   })
-
-  window.location = 'index.html';
 }
 
 
@@ -108,6 +106,7 @@ window.onload = function(){
     userLink.href = '#';
 
     signOutLink.innerText = 'Sign Out';
+    signOutLink.href = "index.html"
     document.getElementById('signOut').onclick = function(){
       signOutUser();
     }

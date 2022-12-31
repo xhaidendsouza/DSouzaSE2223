@@ -76,6 +76,7 @@ document.getElementById('signIn').onclick = function(){
 // ---------------- Keep User Logged In ----------------------------------//
 
 function stayLoggedIn(user){
+    console.log(user)
     let keepLoggedIn = document.getElementById('keepLoggedInSwitch').ariaChecked;
 
     //Session storage is temporary (only active while browser open).
